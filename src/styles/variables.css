@@ -1,0 +1,26 @@
+
+:root {
+  /* Cores principais */
+  --color-primary: #163B50;
+  --color-secondary: #77A9A4;
+
+  /* Cores de fundo */
+  --color-background: #F5F3EF;
+  --color-surface: #FFFFFF;
+
+  /* Cores de texto */
+  --color-text: #252B30;
+  --color-text-muted: #68777C;
+
+  /* Tipografia */
+  --font-primary: 'Inter', sans-serif;
+  --font-heading: 'Playfair Display', serif;
+
+  /* Layout */
+  --container-width: 1200px;
+  --header-height: 80px;
+
+  /* Bordas e sombras */
+  --border-color: #E8E9E7;
+  --shadow-soft: 0 4px 20px rgba(22, 59, 80, 0.06);
+}
