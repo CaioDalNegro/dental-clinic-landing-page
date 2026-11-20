@@ -7,9 +7,10 @@ function App() {
 
       <main id="inicio">
         <section className="welcome">
-          <h1>Núcleo Oral</h1>
+          <h1>Al Dente</h1>
+
           <p>
-            Nossa clínica odontológica está sendo construída.
+            Seu sorriso, nossa prioridade.
           </p>
         </section>
       </main>
