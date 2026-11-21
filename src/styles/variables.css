@@ -1,12 +1,11 @@
-
 :root {
   /* Cores principais */
   --color-primary: #163B50;
   --color-secondary: #77A9A4;
 
   /* Cores de fundo */
-  --color-background: #F5F3EF;
-  --color-surface: #FFFFFF;
+  --color-background: #F5E9DF;
+  --color-surface: #F5E9DF;
 
   /* Cores de texto */
   --color-text: #252B30;
