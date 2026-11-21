@@ -1,4 +1,5 @@
 import Header from './components/Header/Header';
+import Hero from "./sections/Hero/Hero";
 
 function App() {
   return (
@@ -6,13 +7,7 @@ function App() {
       <Header />
 
       <main id="inicio">
-        <section className="welcome">
-          <h1>Al Dente</h1>
-
-          <p>
-            Seu sorriso, nossa prioridade.
-          </p>
-        </section>
+        <Hero />
       </main>
     </>
   );
