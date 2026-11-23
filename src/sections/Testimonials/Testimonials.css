@@ -1,0 +1,174 @@
+.testimonials {
+  padding: 100px 8%;
+  background-color: #FBF9F5;
+}
+
+.testimonials__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Cabeçalho da seção */
+
+.testimonials__eyebrow {
+  display: block;
+  margin-bottom: 16px;
+
+  color: #89805F;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.testimonials__title {
+  margin-bottom: 16px;
+
+  color: #363A2D;
+  font-size: clamp(30px, 4vw, 44px);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.testimonials__description {
+  max-width: 550px;
+  margin: 0 auto;
+
+  color: #77766C;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* Grid de depoimentos */
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+  margin-top: 55px;
+}
+
+/* Card */
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 230px;
+  padding: 32px;
+
+  background-color: #FFFFFF;
+  border: 1px solid #EAE5DC;
+  border-radius: 4px;
+
+  text-align: left;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(54, 58, 45, 0.07);
+}
+
+.testimonial-card__text {
+  margin-bottom: 30px;
+
+  color: #55564E;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+/* Identificação do paciente */
+
+.testimonial-card__author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.testimonial-card__avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+
+  background-color: #EAE5DC;
+  border-radius: 50%;
+
+  color: #363A2D;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.testimonial-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.testimonial-card__name {
+  color: #363A2D;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.testimonial-card__treatment {
+  color: #89805F;
+  font-size: 12px;
+}
+
+/* Aviso demonstrativo */
+
+.testimonials__disclaimer {
+  display: block;
+  margin-top: 35px;
+
+  color: #99958C;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+/* Responsividade */
+
+@media (max-width: 900px) {
+  .testimonials {
+    padding: 80px 6%;
+  }
+
+  .testimonials__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonials {
+    padding: 65px 5%;
+  }
+
+  .testimonials__title {
+    font-size: 30px;
+  }
+
+  .testimonials__description {
+    font-size: 14px;
+  }
+
+  .testimonials__grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 35px;
+  }
+
+  .testimonial-card {
+    min-height: 190px;
+    padding: 26px;
+  }
+}
